@@ -8,7 +8,7 @@ Author URI: https://lipaonline.com/
 License: GPLv2+
 */
 
-add_action('wp_head', 'hook_css');
+add_action('wp_head', 'hook_wp_head');
 
 function hook_wp_head() {
     ?>
